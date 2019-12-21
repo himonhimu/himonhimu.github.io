@@ -1,0 +1,308 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #143D55;
+	font-family: "arial";
+}
+.header {
+	height: 100px;
+	background: url("images/square.jpg");
+	width: 100%;
+}
+.giffpart img{
+	height: 100px;
+	
+}
+.bgpart{
+	width: 15%;
+    position: absolute;
+    display: block;
+    /* float: right; */
+    top: 25px;
+    right: 50px;
+
+}
+.bgpart img {
+	width: 100%;
+}
+.bgpart p {
+	font-size: 12px;
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+
+.datepart{
+	/*background: red;*/
+
+    height: 25px;
+    width: 71px;
+    position: absolute;
+    display: block;
+    /* float: right; */
+    top: 59px;
+    left: 415px;
+}
+.datepart p {
+	width: 100%;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.sidepane{
+	width: 20%;
+	display: block;
+	float: left;
+
+}
+.sidepane p{
+	padding-left: 30px;
+	padding-top: 10px;
+	text-decoration: underline;
+	text-decoration-color: red;
+	color: white;
+}
+.pointclass{
+	padding-left: 30px;
+}
+.pointclass li{
+	padding-top: 10px;
+	color: white;
+
+}
+
+.mainbody{
+	display: block;
+	float: left;
+	width: 80%;
+	background: #F4F4FF;
+	height: 300px;
+}
+.titlepane{
+	
+	background-color: #4d93cf;
+	padding: 6px;
+	color: white; 
+}
+.instructions{
+	background-color: yellow;
+	font-size: 11px;
+	padding-bottom: 6px;
+
+}
+.InputArea{
+	height: 150px;
+	width: 100%;
+	background: #F4F4FF;
+}
+.titlep{
+	font-size: 12px;
+	float: left;
+	display: block;
+	background: #B3D9FF;
+	padding:10px;
+	width: 200px;
+}
+.semiclass{
+	float: left;
+	display: block;
+	margin-top: 12px;
+	margin-left: 6px;
+}
+.semiclass input{
+	width: 200px;
+	}
+.semiclass p{
+	font-size: 12px;
+	margin-top: 0;
+	}
+
+.or{
+	margin-top: 21px;
+    display: block;
+    float: left;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.secondinput{
+	margin-top: 7px;
+}
+.third{
+	margin-top: 2px;
+}
+
+.lastinput{
+    
+    display: block;
+    margin-top: 42px;
+    position: absolute;
+}
+
+.titlep2{
+	font-size: 12px;
+	float: left;
+	display: block;
+	background: #B3D9FF;
+	padding:2px;
+	width: 212px;
+	margin-left: 5px;
+
+}
+
+.imageandText img{
+
+	display: block;
+	float: left;
+}
+.imageandText p{
+	display: block;
+	float: left;
+}
+.buttonsec{
+	margin-left: 5px;
+    display: block;
+    margin-top: 95px;
+    position: absolute;
+}
+.buttonsec button{
+	width: 109px;
+    height: 21px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.mainbody::after{
+	clear: both;
+	content: '';
+	display: block;
+}
+.tablesec{
+	
+	width: 100%;
+	background: #F4F4FF;
+}
+
+.tbheader p{
+	
+	background-color: #B3D9FF;
+	height:75px;
+	border-right: 3px solid white;
+	margin: 0px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 13px;
+	margin-left: 3px;
+	text-align: center;
+}
+.tablesec::after{
+	clear: both;
+	content: '';
+	display: block;
+}
+.common p{
+	height:75px;
+	margin: 0px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 13px;
+	text-align: center;
+}
+.common{
+	height:75px;
+	background-color: #B3D9FF;
+	display: block;
+	float: left;
+	margin-left: 3px;
+}
+.commonrow{
+	display: block;
+	float: left;
+	margin-left: 3px;
+	background: white;
+	height: 25px;
+}
+
+.commonrow p{
+	height:25px;
+	margin: 0px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 13px;
+	text-align: center;
+	font-size: 11px;
+}
+.rowhover:hover > .commonrow p{
+	background-color: #ecffb3;
+	
+}
+.one{
+	width: 8%;
+	
+}
+.two{
+	width: 21%;
+}
+.three{
+	width: 12%;
+}
+.four{
+	width: 26%; 
+}
+.five{
+	width: 16%; 
+}
+.six{
+	width: 15%; 
+}
+
+
+.nextinfo{
+	font-size: 12px;
+	width: 100%;
+}
+.item{
+	
+	width: 65%;
+	display: block;
+	float: left;
+
+}
+.item p{
+	margin: 0;
+	margin-top: 10px;
+}
+.nextpre{
+	width: 35%;
+	display: block;
+	float: right;
+	text-align: end;
+	margin-top: 10px;
+	
+}
+.nextpre button{
+	font-size: 12px;
+}
+.nextpre input{
+	width: 80px;
+}
+.double {
+	padding-top: 20px;
+}
+
+.pointclass li a:hover {
+	cursor: pointer;
+	color: yellow;
+	text-decoration: none;
+
+}
+
+.pointclass li a {
+	text-decoration: none;
+	color: white;
+
+}

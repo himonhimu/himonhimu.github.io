@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="StyleB.css">
+<link rel = "icon" href =  "images/favicon.ico"        type = "image/x-icon">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<title>.: MyIMMs - e-Services :.</title>
+
+</head>
+<body>
+    <div class="header">
+        <div class="giffpart">
+        	<img src="images\ms_Animated96.gif">
+        </div>
+        <div class = "bgpart">
+        	<p>Sabtu, 21 Disember 2019</p>
+        	<img src="images/JIM_verticalLine.jpg">
+        	<img src="images/JIM_verticalLine.jpg">
+        </div>
+        <div class="datepart">
+        	<p id="txt">10:10:10</p>
+        </div>
+        <!-- original link
+         https://eservices.imi.gov.my/myimms/PRAStatus -->
+    </div>
+    <div class="sidepane">
+    	<p>MYONLINE*PEMBANTU <br> RUMAH ASING / PEKERJA <br> ASING</p>
+    	<div class="pointclass">
+    		<ul>
+    			<li>  <a href="index.html">PERTANYAAN STATUS PERMOHONAN </a></li>
+
+    			<li> <a href="vedio.html"> VIDEO TUTORIAL </a></li>
+    		</ul>
+    	</div>
+
+    </div>
+    <div class="mainbody">
+    	<div class="titlepane">STATUS PERMOHONAN PEMBANTU RUMAH ASING / PEKERJA ASING</div>
+    	<div class="instructions">
+    		<tr>
+                        <td colspan="5" bgcolor="#FFFF00">
+                            <table border="0" style="font-weight: bold;">
+                                <tbody><tr>
+                                    <td width="9%">&nbsp;</td>
+                                    <td width="1%">&nbsp;</td>
+                                    <td width="60%">&nbsp;</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td colspan="3">
+                                        <span style="text-transform: uppercase;">Status :</span>
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td>PERMOHONAN DITERIMA</td><td>-</td><td>Permohonan telah diterima.</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td>BARU</td><td>-</td><td>Permohonan telah diterima dan sedang diproses oleh Jabatan Imigresen Malaysia. Sila kirimkan salinan asal dari dokumen-dokumen sokongan sekiranya belum berbuat demikian.</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td>LULUS</td><td>-</td><td>Permohonan telah diluluskan oleh Jabatan Imigresen Malaysia dan bersedia untuk Pembayaran dan cetakan Pelekat. Sila buat pemeriksaan FOMEMA sekiranya belum berbuat demikian.</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td>TOLAK</td><td>-</td><td>Permohonan telah ditolak oleh Jabatan Imigresen Malaysia.</td>
+                                </tr>
+                                <tr>
+                                    <td>BATAL</td><td>-</td><td>Permohonan telah dibatalkan oleh Jabatan Imigresen Malaysia.</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td>BAYAR</td><td>-</td><td>Permohonan telah dibayar dan bersedia untuk Cetakan Pelekat.</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td>CETAK</td><td>-</td><td>Pelekat telah di cetak dan sedia untuk dipungut.</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td>TANGGUH</td><td>-</td><td>Permohonan telah ditangguh oleh Jabatan Imigresen Malaysia.</td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+    	</div>
+    	<div class="InputArea">
+    		<div class="minput first"> 
+				<p class="titlep">No. Kad Pengenalan Majikan</p>
+				<div class="semiclass">
+					<input type="text" name="inputone">
+					<p>( Contoh Format : 999999-99-9999 )</p>
+				</div>
+    		 </div>
+    		<div class="minput second">
+    			<p class="or">ATAU</p>
+    			<p class="titlep">No. Pendaftaran Syarikat</p>
+				<div class="semiclass">
+					<input id="maintext" class="secondinput" type="text" name="inputone">
+				</div>
+    		</div>
+    		<div class="minput third">
+    			<div class="lastinput">
+    				
+    				<p class="titlep2">Nombor Permohonan</p>    				
+    				<div class="semiclass">
+    					<input type="text" name="inputone">
+    					<div class="imageandText">
+					<img src="images/search_icon.png">
+					<p>Lihat Contoh</p>
+
+				</div>
+    				</div>
+    			</div>
+
+    		</div>
+				
+			<div class="buttonsec">
+				<button id="nextpage">Carian</button>
+				<button>KOSONGKAN</button>
+
+			</div>
+
+
+    	</div>
+    	<!-- single para-->
+			<div class="tablesec">
+    		<div class="tbheader">
+				<div class="common one">
+					<p class="one">Bil</p>
+				</div>
+				<div class="common two">
+					<p class="two">Nombor Permohonan</p>
+				</div>
+				<div class="common three">
+					<p class="three">No. Kad Pengenalan / No. Pendaftaran Syarikat</p>
+				</div>
+				<div class="common four">
+					<p class="four">Nama Pembantu Rumah/Pekerja</p>
+				</div>
+				<div class="common five">
+					<p class="five">Nombor Dokumen</p>
+				</div>
+				<div class="common six">
+					<p class="six">Status</p>
+				</div>
+    			
+    		</div>
+				<p id = "caution" class="infofail">Rekod Tidak Dijumpai</p>
+
+    	</div>
+		
+
+    	</div>
+    </div>
+
+	<script src="java/myjava.js"></script>
+</body>
+</html>
