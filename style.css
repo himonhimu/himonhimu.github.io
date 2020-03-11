@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.wrapper{
+	width: 1160px;
+	margin: auto;
+}
+.ContentArea{
+	    margin: 0 2% 0 2%;
+	    overflow: hidden;
+}
+.headheight{
+	height: 70px;
+
+}
+.head{
+	display: table;
+	background: #f47920;
+	width: 100%;
+
+}
+.logoarea{
+	width: 50%;
+	color:white;
+	float: left;
+	display: table;
+	font-size: 45px;
+
+}
+.logoarea p{
+	display: table-cell;
+	vertical-align: middle;
+}
+.menuarea{
+	width: 50%;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+.menuarea ul{
+	list-style-type: none;
+	
+}
+.menuarea ul li{
+	text-decoration: none;
+
+}
+.menuarea ul li a{
+	font-family: roboto;
+	display: block;
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 26px 0;
+    width: 15%;
+    text-align: center;
+    
+}
+.menuarea ul li a:hover{
+	background: black;
+	color: yellow;
+}
+.sidebar{
+	width: 15%;
+	height: 91vh;
+	background: #434345;
+	float: left;
+}
+.innersideber ul {
+	list-style-type: none;
+}
+.innersideber ul li a {
+	display: block;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding: 10px 10px;
+    border-bottom: white 1px solid;
+}
+
+.innersideber ul li a:hover{
+	background: black;
+	color: yellow;
+}
+.maincontent{
+	width: 85%;
+	color: yellow;
+	height: 91vh;
+	float: left;
+}
+.welcome {
+	width: 60%;
+	height: 80px;
+	display: table;
+	background: black;
+	border: white 3px solid;
+	border-radius: 0 70px;
+	margin: auto;
+	margin-top: 30px;
+	box-shadow: 0 0 21px #ff5757;
+}
+.welcome h1{
+	font-size: 40px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	animation-name: textanim;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;;
+}
+@keyframes textanim{
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:200px; top:0px;}
+  50%  {color:#f47920; left:200px; top:200px;}
+  75%  {color:white; left:0px; top:200px;}
+  100% {color:red; left:0px; top:0px;}
+
+}
+
+.textall{
+	margin: auto;
+	text-align: justify;
+	width: 60%;
+	color:white;
+}
+
+.fottersec{
+	width: 1160px;
+	height: 40px;
+	color: white;
+	display: table;
+	background: #f47920;
+	position: absolute;
+	bottom: 0;
+}
+.fottersec p{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.fottersec p a {
+	text-decoration: none;
+	color: white;
+}

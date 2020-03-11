@@ -1,0 +1,158 @@
+@media screen and (max-width: 834px) {
+  .menuarea {
+    right: 0;
+  }
+  .menuarea ul li a {
+    padding: 19px 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .logoarea a {
+    color: #3ec483;
+    text-decoration: none;
+    float: right;
+  }
+  .logoarea {
+    display: block;
+    position: absolute;
+    width: max-content;
+    margin: auto;
+    right: 0;
+  }
+  .menubar {
+    display: block;
+  }
+  .menubar:hover {
+    color: red;
+  }
+
+  .menuarea {
+    text-align: left;
+    position: absolute;
+    top: 60px;
+    background: rgb(2, 48, 2);
+    display: none;
+  }
+  .menuarea ul li {
+    display: block;
+    display: inline-block;
+    /* width: 100%; */
+    padding: 10px;
+  }
+ .menuarea ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 0 0 15px 0;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  .firstsec {;
+    background-color: #76787a;
+    position: relative;;
+    height: 100vh;;
+    margin-top: 60px;
+  }
+  .firstinner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 100vw;
+    top: 0;
+  }
+  .firstinner p {
+    text-align: center;
+  }
+
+  .buttonclass {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+  .firstbutton {
+    background-color: #3ec483;
+    color: white;
+  }
+  .btn {
+    padding: 20px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+  }
+  .secondbutton {
+    background-color: #00adb5;
+    color: white;
+  }
+  .innersecond .commonspace {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+   .imagesection{
+    margin: 0;;
+
+   }
+  .imagesection .imageok {
+    height: 450px;
+    float: left;
+    width: 100%;
+    display: block;
+  }
+  .imagemargin {
+    background-color: #fff;
+    box-shadow: 3px 3px 8px #888888;
+    margin: 0;
+    border-radius: 5px;
+  }
+  .thirdlastp {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .wrapper{
+    margin: 20px 20px;;
+
+  }
+  .conterp {
+    width: max-content;
+    display: inline-block;
+    color: #8f989f;
+    margin: 10px;
+  }
+  .fourthsec .fourthinner {
+    width: 100%;
+    float: left;
+  }
+  .innersecond .wrapperb {
+    margin: 0;
+
+}
+  .blogconten {
+    width: 100%;
+    float: left;
+    /* outline: 1px solid white; */
+    text-align: center;
+  }
+  .aboutcontent {
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+  }
+}
